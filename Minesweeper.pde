@@ -51,7 +51,6 @@ public boolean isWon()
           count++; 
          }
     }
-    System.out.println(count==NUM_MINES);
     if(count== NUM_MINES)
     {
      return true; 
